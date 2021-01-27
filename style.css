@@ -1,0 +1,183 @@
+.navbar{
+    background-color: rgb(43, 9,42) !important;
+   
+    width: 100%;
+   position: fixed;
+}
+
+.me-2{
+    text-align: center;
+    background-color: rgb(57, 21,57);
+    border: 2px solid rgb(80, 49, 80);
+    border-radius: 10px;
+}
+
+.launch{
+    margin-left: 100px;
+    border: 2px solid rgb(248,248,248);
+    max-width: fit-content;
+    border-radius: 5px;
+}
+.blank{
+    max-width:400px;
+    height: 45px;
+    background-color: rgb(241,241, 241);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.col-md-12 p{
+    color: white;
+
+}
+
+.btn{
+
+    margin-bottom: 70px;
+    border: none;
+    background-color: rgb(57, 21,57);
+}
+.btn:hover{
+    border: none !important;
+    background-color: rgb(57, 21,57);
+
+}
+
+.dropdown-menu{
+    background-color: rgb(57, 21,57);
+    border: none;
+   
+}
+.dropdown-item {
+    color: white !important;
+    background-color: rgb(57, 21,57);
+}
+.dropdown-menu li{
+    background-color: rgb(57, 21,57);
+}
+
+.col-p p{
+    color: black;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 0px;
+    
+}
+
+.burger{
+    margin-top: 15px;
+    
+    position: absolute;
+    
+}
+
+.scroll{
+    height: 569px;
+    overflow: hidden;
+}
+.scroll:hover{overflow-y:auto;}
+
+.scroll{
+    opacity: 1;
+    -webkit-transition: opacity 1s linear;
+    transition: 1s linear;
+}
+.scrolle{
+    height: 569px;
+    overflow: hidden;
+    
+    
+}
+.scrolle:hover{overflow-y:auto;}
+
+.scrolle{
+    opacity: 1;
+    -webkit-transition: opacity 1s linear;
+    transition: 1s linear;
+}
+.text{
+    bottom: 0%;
+    position: fixed;
+}
+
+.text input{
+    border: 1px solid rgb(26,24,24);
+    height: 100px;
+    width: 60%;
+    
+}
+
+    
+       
+      @media only screen and (max-width:500px) 
+      { 
+        
+   
+    .burger{
+      
+        top: 3px;
+        position: fixed;
+        cursor: pointer;
+        
+       
+    }
+    .scroll{
+       height: 0%;
+        overflow: hidden;
+    }
+   
+    
+    .scroll{
+        opacity: 1;
+        -webkit-transition: opacity 1s linear;
+        transition: 1s linear;
+    }
+    .scrolle{
+        height: 569px;
+        overflow: hidden;
+        
+        
+    }
+    .scrolle:hover{overflow-y:auto;}
+    
+    .scrolle{
+        opacity: 1;
+        -webkit-transition: opacity 1s linear;
+        transition: 1s linear;
+    }
+    .text{
+        bottom: -8px;
+        position: fixed;
+    }
+    .min{
+        height: 10px;
+        display: none;
+        background-color: none;
+        transition: all 0.5s ease-out;
+    }
+
+    .text img{
+        width: 100%;
+        height: 100%;
+        margin-top: -10px;
+
+    }
+.text input{
+    width: 100%;
+    height: 50px;
+    
+}
+
+.min-height{
+    max-height: 250px;
+    transition:all 0.7s linear;
+   
+       
+}
+    
+    
+}
+     
